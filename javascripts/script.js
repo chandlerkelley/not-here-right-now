@@ -7,29 +7,29 @@ $(function() {
 	var $kawan = $(".kawan");
 	var $center = $(".pic-container")
 
-	$body.css("background-color", "#f00");
+	$body.css("background-color", "#F88868");
 
 	$center.hover(function() {
 		$kawan.css("object-position", "0 0");
 	})
 
 	$blog.hover(function() {
-		$body.css("background-color", "#ff0");
+		$body.css("background-color", "#FFE36A");
 		$kawan.css("object-position", "-300px 0");
 	})
 
 	$media.hover(function() {
-		$body.css("background-color", "#0f0");
+		$body.css("background-color", "#F878A8");
 		$kawan.css("object-position", "-600px 0");
 	})
 
 	$places.hover(function() {
-		$body.css("background-color", "#00f");
+		$body.css("background-color", "#4ccede");
 		$kawan.css("object-position", "-900px 0");
 	})
 
 	$about.hover(function() {
-		$body.css("background-color", "#f00");
+		$body.css("background-color", "#F88868");
 		$kawan.css("object-position", "-1200px 0");
 	})
 })
