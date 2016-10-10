@@ -7,6 +7,8 @@ $(function() {
 	var $kawan = $(".kawan");
 	var $center = $(".pic-container")
 
+	$body.css("background-color", "#f00");
+
 	$center.hover(function() {
 		$kawan.css("object-position", "0 0");
 	})
