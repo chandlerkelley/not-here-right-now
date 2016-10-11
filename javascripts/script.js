@@ -1,6 +1,6 @@
 $(function() {
 	var $body = $("body");
-	var $blog = $(".blog");
+	var $journal = $(".journal");
 	var $media = $(".media");
 	var $places = $(".places");
 	var $about = $(".about");
@@ -13,7 +13,7 @@ $(function() {
 		$kawan.css("object-position", "0 0");
 	})
 
-	$blog.hover(function() {
+	$journal.hover(function() {
 		$body.css("background-color", "#FFE36A");
 		$kawan.css("object-position", "-300px 0");
 	})
