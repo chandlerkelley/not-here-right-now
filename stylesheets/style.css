@@ -69,15 +69,15 @@ a {
 
 .pic-frame {
 	position: relative;
-	width: 300px;
+	width: 450px;
 	overflow: hidden;
-	height: 400px;
+	height: 600px;
 }
 
-.kawan {
-	height: 800px;
+.royce {
+	height: 1200px;
 }
 
 .title {
-	height: 200px;
+	height: 120px;
 }
