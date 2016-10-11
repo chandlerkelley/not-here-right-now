@@ -71,10 +71,11 @@ a {
 	position: relative;
 	width: 300px;
 	overflow: hidden;
+	height: 400px;
 }
 
 .kawan {
-	height: 400px;
+	height: 800px;
 }
 
 .title {

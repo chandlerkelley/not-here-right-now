@@ -25,11 +25,11 @@ $(function() {
 
 	$places.hover(function() {
 		$body.css("background-color", "#4ccede");
-		$kawan.css("object-position", "-900px 0");
+		$kawan.css("object-position", "0 -400px");
 	})
 
 	$about.hover(function() {
 		$body.css("background-color", "#F88868");
-		$kawan.css("object-position", "-1200px 0");
+		$kawan.css("object-position", "-300px -400px");
 	})
 })
