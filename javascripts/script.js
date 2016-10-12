@@ -15,22 +15,22 @@ $(function() {
 
 	$journal.hover(function() {
 		$body.css("background-color", "#FFE36A");
-		$royce.css("object-position", "-450px 0");
+		$royce.css("object-position", "-60vh 0");
 	})
 
 	$media.hover(function() {
 		// $body.css("background-color", "#F878A8");
 		$body.css("background-color", "#BED3F6");
-		$royce.css("object-position", "-900px 0");
+		$royce.css("object-position", "-120vh 0");
 	})
 
 	$places.hover(function() {
 		$body.css("background-color", "#4ccede");
-		$royce.css("object-position", "0 -600px");
+		$royce.css("object-position", "0 -80vh");
 	})
 
 	$about.hover(function() {
 		$body.css("background-color", "#F88868");
-		$royce.css("object-position", "-450px -600px");
+		$royce.css("object-position", "-60vh -80vh");
 	})
 })
