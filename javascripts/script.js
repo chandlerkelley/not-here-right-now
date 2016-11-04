@@ -1,6 +1,6 @@
 $(function() {
 	var $body = $("body");
-	var $journal = $(".journal");
+	var $footage = $(".footage");
 	var $media = $(".media");
 	var $places = $(".places");
 	var $about = $(".about");
@@ -13,7 +13,7 @@ $(function() {
 		$royce.css("object-position", "0 0");
 	})
 
-	$journal.hover(function() {
+	$footage.hover(function() {
 		$body.css("background-color", "#FFE36A");
 		$royce.css("object-position", "-51vh 0");
 	})

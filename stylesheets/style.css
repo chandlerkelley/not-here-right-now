@@ -49,32 +49,24 @@ body {
 	display: flex;
 	flex-direction: column;
 	flex: 1;
+	justify-content: space-between;
+	height: 100vh;
 }
 
-.top {
-	flex: 1;
-	display: flex;
-	align-items: flex-start;
-	justify-content: center;
-}
+.link-container div {
 
-.bottom {
-	flex: 1;
-	display: flex;
-	align-items: flex-end;
-	justify-content: center;
 }
 
 a {
-	font-size: 40px;
-	/*margin: 80px 0;*/
+	/*padding: 80px 0;*/
 	display: block;
 	text-decoration: none;
 	color: #000;
 }
 
 .link-img {
-	height: 120px;
+	padding: 5vh;
+	height: 20vh;
 	transition: all .2s ease-in-out; 
 }
 
@@ -83,7 +75,7 @@ a {
 }
 
 .link {
-	margin: 80px 0;
+	/*margin: 80px 0;*/
 }
 
 .pic-container {
@@ -97,7 +89,7 @@ a {
 .title {
 	height: 20vh;
 	/*display: none;*/
-	margin-top: 12px;
+	margin-top: 2vh;
 }
 
 .pic-frame {
@@ -116,11 +108,11 @@ a {
 }
 
 .icon {
-	width: 30px;
-	height: 30px;
-	border-radius: 50%;
+	width: 35px;
+	height: 35px;
+	/*border-radius: 50%;*/
 	margin: 10px;
-	background-color: blue;
+	/*background-color: blue;*/
 }
 
 .page-title {
