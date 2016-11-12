@@ -19,7 +19,7 @@ body {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-
+	max-height: 100vh;
 }
 
 .splash-container {
@@ -46,11 +46,12 @@ body {
 }
 
 .link-container {
+	padding: 10vh 0;
 	display: flex;
 	flex-direction: column;
 	flex: 1;
-	justify-content: space-between;
-	height: 100vh;
+	justify-content: space-around;
+	height: 80vh;
 }
 
 .link-container div {
@@ -66,7 +67,7 @@ a {
 
 .link-img {
 	padding: 5vh;
-	height: 20vh;
+	height: 17vh;
 	transition: all .2s ease-in-out; 
 }
 
@@ -87,7 +88,7 @@ a {
 }
 
 .title {
-	height: 20vh;
+	height: 18vh;
 	/*display: none;*/
 	margin-top: 2vh;
 }
@@ -100,7 +101,8 @@ a {
 }
 
 .royce {
-	height: 132vh;
+	position: absolute;
+	height: 68vh;
 }
 
 .icon-container {
@@ -155,6 +157,25 @@ header {
 
 .footer {
 	width: 100%;
+}
+
+#heads {
+	-webkit-animation:bounce 1s infinite;
+	animation: bounce 1s infinite;
+}
+
+@-webkit-keyframes bounce {
+  0%       { bottom:1vh; }
+  25%, 75% { bottom:2vh; }
+  50%      { bottom:3vh; }
+  100%     {bottom:0;}
+}
+
+@keyframes bounce {
+  0%       { bottom:0vh; }
+  25%, 75% { bottom:.5vh; }
+  50%      { bottom:1vh; }
+  100%     {bottom:-.5vh;}
 }
 
 @media only screen and (max-width: 768px) {
