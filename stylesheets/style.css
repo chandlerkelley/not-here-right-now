@@ -50,12 +50,9 @@ body {
 	display: flex;
 	flex-direction: column;
 	flex: 1;
+	align-items: center;
 	justify-content: space-around;
 	height: 80vh;
-}
-
-.link-container div {
-
 }
 
 a {
@@ -67,7 +64,7 @@ a {
 
 .link-img {
 	padding: 5vh;
-	height: 17vh;
+	height: 13vh;
 	transition: all .2s ease-in-out; 
 }
 
