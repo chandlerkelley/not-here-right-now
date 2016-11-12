@@ -152,6 +152,10 @@ header {
 	padding: 0 5%;
 }
 
+.column p {
+	margin: .5em 0;
+}
+
 .footer {
 	width: 100%;
 }
