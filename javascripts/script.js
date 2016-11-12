@@ -1,8 +1,7 @@
 $(function() {
 	var $body = $("body");
 	var $center = $(".pic-container")
-	var $bodies = $("#bodies");
-	var $heads = $("#heads");
+	var $royce = $(".royce");
 	var $about = $(".about");
 	var $places = $(".places");
 	var $footage = $(".footage");
@@ -13,42 +12,39 @@ $(function() {
 	$body.css("background-color", "#F88868");
 
 	$center.hover(function() {
-		$bodies.css("object-position", "0");
-		$heads.css("object-position", "0");
+		$royce.css("left", "0");
 	})
 
 	$about.hover(function() {
 		$body.css("background-color", "#F88868");
-		$bodies.css("object-position", "-51vh");
-		$heads.css("object-position", "-51vh");
+		$royce.css("left", "-255vh");
 	})
 
 	$places.hover(function() {
 		$body.css("background-color", "#4ccede");
-		$bodies.css("object-position", "-102vh");
-		$heads.css("object-position", "-102vh");
+		$royce.css("left", "-153vh");
 	})
 
 	$footage.hover(function() {
 		$body.css("background-color", "#FFE36A");
-		$bodies.css("object-position", "-153vh");
-		$heads.css("object-position", "-153vh");
+		$royce.css("left", "-102vh");
 	})
 
 	$journal.hover(function() {
 		// $body.css("background-color", "#F878A8");
 		$body.css("background-color", "#4ccede");
-		$bodies.css("object-position", "-204vh");
-		$heads.css("object-position", "-204vh");
+		$royce.css("left", "-51vh");
 	})
 
 	$teaser.hover(function() {
 		$body.css("background-color", "#FFE36A");
+		$royce.css("left", "-204vh");
 
 	})
 
 	$tourinfo.hover(function() {
 		$body.css("background-color", "#F88868");
+		$royce.css("left", "-306vh");
 
 	})
 })
