@@ -8,8 +8,7 @@ $(function() {
 	var $journal = $(".journal");
 	var $teaser = $(".teaser");
 	var $tourinfo = $(".tour-info");
-
-	$body.css("background-color", "#F88868");
+	var $roycehead = $(".royce-head");
 
 	$center.hover(function() {
 		$royce.css("left", "0");
@@ -46,5 +45,12 @@ $(function() {
 		$body.css("background-color", "#F88868");
 		$royce.css("left", "-306vh");
 
+	})
+
+	$roycehead.click(function() {
+		var that = $(this);
+		console.log("Pulse")
+		that.css("animation", "pulse .25s linear 1");
+		setTimeout(function() { that.css("animation", "none") }, 250);
 	})
 })

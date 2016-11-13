@@ -7,6 +7,10 @@ body {
 	/*transition: background-color 250ms linear;*/
 }
 
+.home-body {
+	background-color: #F88868;
+}
+
 .page-container {
   padding-right: 15px;
   padding-left: 15px;
@@ -115,7 +119,7 @@ a {
 }
 
 .page-title {
-	height: 200px;
+	height: 20vh;
 }
 
 .about-body {
@@ -177,6 +181,103 @@ header {
   25%, 75% { bottom:.5vh; }
   50%      { bottom:1vh; }
   100%     {bottom:-.5vh;}
+}
+
+.places-body {
+	background-color: #4ccede;
+}
+
+.map {
+	width: 90vh;
+	height: 70vh;
+	background-image: url("../images/se-asia.png");
+	margin: 0 auto;
+	position: relative;
+}
+
+.map-location {
+	position: absolute;
+	left: 10vh;
+	top: 12vh;
+	display: flex;
+	flex-direction: row;
+	/*background-color: #222*/
+}
+
+.royce-head {
+	height: 12vh;
+	width: 12vh;
+	cursor: pointer;
+}
+
+.speech-bubble {
+  position:relative;
+  padding: .5em;
+  color:#000;
+  margin-left: 1vh;
+  border: 4px solid #666;
+  background:#fff;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius:10px;
+  width: 30vh;
+}
+
+.speech-bubble:before {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: -32px;
+  top: 28px;
+  border: 15px solid;
+  border-color: transparent #666 transparent transparent;
+}
+
+.speech-bubble:after {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: -26px;
+	top: 28px;
+	border: 15px solid;
+  border-color: transparent #fff transparent transparent;
+
+}
+
+@-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(.95, .95, .95);
+    transform: scale3d(.95, .95, .95);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(.95, .95, .95);
+    transform: scale3d(.95, .95, .95);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
 }
 
 @media only screen and (max-width: 768px) {
