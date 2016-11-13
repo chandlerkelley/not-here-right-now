@@ -197,21 +197,30 @@ header {
 
 .map-location {
 	position: absolute;
-	left: 10vh;
-	top: 12vh;
 	display: flex;
 	flex-direction: row;
+	cursor: pointer;
 	/*background-color: #222*/
+}
+
+.map-location:nth-child(1) {
+	top: 10vh;
+	left: 12vh;
+}
+
+.map-location:nth-child(2) {
+	top: 40vh;
+	left: 35vh;
 }
 
 .royce-head {
 	height: 12vh;
 	width: 12vh;
-	cursor: pointer;
 }
 
 .speech-bubble {
-  position:relative;
+	display: none;
+  position: relative;
   padding: .5em;
   color:#000;
   margin-left: 1vh;

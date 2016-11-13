@@ -9,6 +9,7 @@ $(function() {
 	var $teaser = $(".teaser");
 	var $tourinfo = $(".tour-info");
 	var $roycehead = $(".royce-head");
+	var $maplocation = $(".map-location");
 
 	$center.hover(function() {
 		$royce.css("left", "0");
@@ -49,8 +50,16 @@ $(function() {
 
 	$roycehead.click(function() {
 		var that = $(this);
-		console.log("Pulse")
 		that.css("animation", "pulse .25s linear 1");
 		setTimeout(function() { that.css("animation", "none") }, 250);
+	})
+
+	$maplocation.click(function() {
+		if ($(this).children(".speech-bubble").css("display") === "block") {
+			$(this).children(".speech-bubble").css("display", "none");
+		} else {
+			$(".speech-bubble").css("display", "none");
+			$(this).children(".speech-bubble").css("display", "inline-block");
+		}
 	})
 })
