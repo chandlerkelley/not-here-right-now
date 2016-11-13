@@ -11,6 +11,10 @@ body {
 	background-color: #F88868;
 }
 
+.footage-body {
+	background-color: #FFE36A;
+}
+
 .page-container {
   padding-right: 15px;
   padding-left: 15px;
@@ -214,7 +218,7 @@ header {
 }
 
 .royce-head {
-	height: 13vh;
+	height: 14vh;
 	/*width: 12vh;*/
 }
 
