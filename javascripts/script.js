@@ -50,8 +50,8 @@ $(function() {
 
 	$roycehead.click(function() {
 		var that = $(this);
-		that.css("animation", "pulse .25s linear 1");
-		setTimeout(function() { that.css("animation", "none") }, 250);
+		that.css("animation", "pulse .3s linear 1");
+		setTimeout(function() { that.css("animation", "none") }, 300);
 	})
 
 	$maplocation.click(function() {

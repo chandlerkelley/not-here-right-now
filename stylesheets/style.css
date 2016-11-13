@@ -40,7 +40,7 @@ body {
 }
 
 .splash {
-    background: url('../logo-large.jpg') no-repeat fixed center;
+    background: url('../images/logo-large.jpg') no-repeat fixed center;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
@@ -214,8 +214,8 @@ header {
 }
 
 .royce-head {
-	height: 12vh;
-	width: 12vh;
+	height: 13vh;
+	/*width: 12vh;*/
 }
 
 .speech-bubble {
