@@ -290,6 +290,14 @@ header {
 	height: 10vh;
 }
 
+.royce-wobble {
+	margin-right: 3vh;
+	-webkit-transform-origin: bottom center;
+	transform-origin: bottom center;
+	-webkit-animation: swing 3s infinite;
+	animation: swing 3s infinite;
+}
+
 @-webkit-keyframes pulse {
   from {
     -webkit-transform: scale3d(1, 1, 1);
@@ -322,6 +330,42 @@ header {
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
   }
+}
+
+@-webkit-keyframes swing {
+	from {
+		-webkit-transform: rotate3d(0, 0, 1, 10deg);
+		transform: rotate3d(0, 0, 1, 10deg);
+	}
+
+	50% {
+		-webkit-transform: rotate3d(0, 0, 1, -10deg);
+		transform: rotate3d(0, 0, 1, -10deg);
+	}
+
+
+	to {
+		-webkit-transform: rotate3d(0, 0, 1, 10deg);
+		transform: rotate3d(0, 0, 1, 10deg);
+	}
+}
+
+@keyframes swing {
+	from {
+		-webkit-transform: rotate3d(0, 0, 1, 10deg);
+		transform: rotate3d(0, 0, 1, 10deg);
+	}
+
+	50% {
+		-webkit-transform: rotate3d(0, 0, 1, -10deg);
+		transform: rotate3d(0, 0, 1, -10deg);
+	}
+
+
+	to {
+		-webkit-transform: rotate3d(0, 0, 1, 10deg);
+		transform: rotate3d(0, 0, 1, 10deg);
+	}
 }
 
 @media only screen and (max-width: 768px) {
