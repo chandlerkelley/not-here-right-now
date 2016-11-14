@@ -55,11 +55,11 @@ $(function() {
 	})
 
 	$maplocation.click(function() {
-		if ($(this).children(".speech-bubble").css("display") === "block") {
-			$(this).children(".speech-bubble").css("display", "none");
+		if ($(this).children(".map-bubble").css("display") === "block") {
+			$(this).children(".map-bubble").css("display", "none");
 		} else {
-			$(".speech-bubble").css("display", "none");
-			$(this).children(".speech-bubble").css("display", "inline-block");
+			$(".map-bubble").css("display", "none");
+			$(this).children(".map-bubble").css("display", "inline-block");
 		}
 	})
 
@@ -71,7 +71,7 @@ $(function() {
 				]
 
 	var vidIndex = Math.floor(Math.random() * 4);
-	$(".footage-container").append('<iframe width="560" height="315" src="https://www.youtube.com/embed/' + videos[vidIndex].embed + '?controls=0" frameborder="0" allowfullscreen></iframe>');
+	$(".video-container").append('<iframe width="560" height="315" src="https://www.youtube.com/embed/' + videos[vidIndex].embed + '?controls=0" frameborder="0" allowfullscreen></iframe>');
 	console.log(vidIndex);
 	$(".video-copy").append('<p>' + videos[vidIndex].copy + '</p>')
 })
