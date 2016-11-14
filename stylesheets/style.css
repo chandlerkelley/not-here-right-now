@@ -1,15 +1,15 @@
 @font-face {
   font-family: 'Glober';
-  src: url('../glober-semibold/glober-semibold.eot'); /* IE9 Compat Modes */
-  src: url('../glober-semibold/glober-semibold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../glober-semibold/glober-semibold.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../glober-semibold/glober-semibold.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../glober-semibold/glober-semibold.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('../glober-semibold/glober-semibold.svg#svgFontName') format('svg'); /* Legacy iOS */
+  src: url('../glober-semibold/glober-semibold.eot');
+  src: url('../glober-semibold/glober-semibold.eot?#iefix') format('embedded-opentype'),
+       url('../glober-semibold/glober-semibold.woff2') format('woff2'), 
+       url('../glober-semibold/glober-semibold.woff') format('woff'),
+       url('../glober-semibold/glober-semibold.ttf')  format('truetype'),
+       url('../glober-semibold/glober-semibold.svg#svgFontName') format('svg');
 }
 
 * {
-	font-family: "Glober", serif;
+	font-family: "Didact Gothic", serif;
 	/*color: white;*/
 }
 
@@ -184,6 +184,7 @@ header {
 	color: #fff;
 	font-size: 18px;
 	line-height: 1.15em;
+	/*font-weight: 400;*/
 }
 
 .footer {
