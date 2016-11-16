@@ -327,6 +327,11 @@ header {
 	animation: swing 3s infinite;
 }
 
+.coming-soon {
+	width: 100vh;
+	margin: 20vh auto 0;
+}
+
 @-webkit-keyframes pulse {
   from {
     -webkit-transform: scale3d(1, 1, 1);
