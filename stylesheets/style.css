@@ -46,9 +46,13 @@
 .splash-container a {
 	height: 100%;
 	width: 100%;
+	/*background-color: red;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-.splash {
+/*.splash {
     background: url('../images/logo-large.jpg') no-repeat fixed center;
     -webkit-background-size: contain;
     -moz-background-size: contain;
@@ -60,6 +64,14 @@
 	transform-origin: center center;
 	-webkit-animation: swing 3s infinite;
 	animation: swing 3s infinite;
+}*/
+
+.splash {
+	height: 90vh;
+	position: relative;
+	-webkit-animation: bounce 1s infinite;
+	animation: bounce 1s infinite;
+	/*margin: 10vh auto 0;*/
 }
 
 .link-container {
@@ -76,33 +88,39 @@
 	position: relative;
 }
 
+.link-container div:hover .link-bg {
+	opacity: 0.8;
+}
+
 .link-bg {
 	position: absolute;
 	z-index: -1;
-	opacity: .8;
+	opacity: 0;
+	/*display: none;*/
+	transition:  all .1s ease-in-out;
 }
 
 .places-bg {
 	left: 30%;
 	top: 0;
-	height: 30vh;
+	height: 28vh;
 }
 
 .footage-bg {
 	left: 25%;
 	top: 5vh;
-	height: 15vh;
+	height: 13vh;
 }
 
 .journal-bg {
 	top: 0;
-	height: 25vh;
+	height: 23vh;
 	left: 10vh;
 }
 
 .teaser-bg {
 	top: 0;
-	height: 25vh;
+	height: 23vh;
 	left: 14vh;
 }
 
@@ -203,6 +221,10 @@ header {
 	height: 100px;
 }
 
+.about-pic {
+	height: 50vh;
+}
+
 .column {
 	/*flex-grow: 1;*/
 	display: flex;
@@ -233,14 +255,14 @@ header {
   0%       { bottom:1vh; }
   25%, 75% { bottom:2vh; }
   50%      { bottom:3vh; }
-  100%     {bottom:0;}
+  100%     { bottom:0;}
 }
 
 @keyframes bounce {
   0%       { bottom:0vh; }
   25%, 75% { bottom:.5vh; }
   50%      { bottom:1vh; }
-  100%     {bottom:-.5vh;}
+  100%     { bottom:-.5vh;}
 }
 
 .places-body {
