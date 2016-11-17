@@ -72,6 +72,40 @@
 	height: 80vh;
 }
 
+.link-container div {
+	position: relative;
+}
+
+.link-bg {
+	position: absolute;
+	z-index: -1;
+	opacity: .8;
+}
+
+.places-bg {
+	left: 30%;
+	top: 0;
+	height: 30vh;
+}
+
+.footage-bg {
+	left: 25%;
+	top: 5vh;
+	height: 15vh;
+}
+
+.journal-bg {
+	top: 0;
+	height: 25vh;
+	left: 10vh;
+}
+
+.teaser-bg {
+	top: 0;
+	height: 25vh;
+	left: 14vh;
+}
+
 a {
 	/*padding: 80px 0;*/
 	display: block;
