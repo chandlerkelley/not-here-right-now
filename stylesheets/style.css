@@ -346,7 +346,16 @@ header {
 }
 
 .footage-container {
-	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	margin: 10vh auto;
+}
+
+.footage-right {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .footage-top {
@@ -359,15 +368,12 @@ header {
 	border: solid white 4px;
 }
 
-.refresh-container {
-	display: flex;
-	justify-content: center;
-	margin: 2vh 0;
-}
-
 .refresh {
-	height: 10vh;
-	transition: all .2s ease-in-out; 
+	position: relative;
+	height: 11vh;
+	transition: all .2s ease-in-out;
+	-webkit-animation:bounce 1s infinite;
+	animation: bounce 1s infinite;
 }
 
 .refresh:hover {
@@ -375,7 +381,7 @@ header {
 }
 
 .royce-wobble {
-	margin-right: 3vh;
+	margin:  0 3vh 2vh;
 	width: 158px;
 	-webkit-transform-origin: bottom center;
 	transform-origin: bottom center;
