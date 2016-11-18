@@ -184,6 +184,7 @@ a {
 
 .icon-container {
 	display: flex;
+	/*position: relative;*/
 }
 
 .icon {
@@ -248,8 +249,17 @@ header {
 	/*font-weight: 400;*/
 }
 
-.footer {
-	width: 100%;
+footer {
+	height: 20vh;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+.running {
+	height: 20vh;
+	position: absolute;
+	right: 2vh;
 }
 
 #heads {
