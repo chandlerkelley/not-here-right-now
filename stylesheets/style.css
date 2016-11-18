@@ -404,6 +404,7 @@ footer {
 }
 
 .footage-right {
+	order: 2;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -420,6 +421,7 @@ footer {
 	/*border: solid white 4px;*/
 	position: relative;
 	width: 70vh;
+	order: 1;
 	/*background-color: #000;*/
 }
 
@@ -584,9 +586,16 @@ footer {
 	}
 
 	.title {
-		display: inline-block;
 		width: 90%;
 		height: auto;
+	}
+
+	.banner-title {
+		display: none;
+	}
+
+	.page-title {
+		margin: 0 auto;
 	}
 
 	.about-content {
@@ -600,6 +609,14 @@ footer {
 
 	.running {
 		display: none;
+	}
+
+	.footage-container {
+		flex-direction: column;
+	}
+
+	.footage-right {
+		order: 0;
 	}
 
 	/*.royce {
