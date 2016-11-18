@@ -161,6 +161,7 @@ a {
 
 .pic-container p {
 	color: #fff;
+	text-align: center;
 	/*margin: 1vh 0;*/
 }
 
@@ -180,6 +181,10 @@ a {
 .royce {
 	position: absolute;
 	height: 68vh;
+}
+
+.mobile-royce-head {
+	display: none;
 }
 
 .icon-container {
@@ -225,7 +230,7 @@ header {
 	/*width: 100%;*/
 }
 .about-header {
-	height: 100px;
+	width: 80%;
 }
 
 .about-pic {
@@ -546,20 +551,36 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
-	.page-container {
+	.home-container {
 		flex-direction: column;
+		max-height: none;
 	}
 
 	.link-container {
 		order: 1;
+		padding: 0;
+		/*flex: 0;*/
+	}
+
+	.pic-container {
+		/*flex: 0;*/
+	}
+
+	.link-bg {
+		opacity: 0.8;
 	}
 
 	.pic-frame {
-		height: 0;
+		display: none;
 	}
 
-	.link {
-		margin: 20px 0;
+	.mobile-royce-head {
+		position: relative;
+		display: inline-block;
+		width: 40%;
+		-webkit-animation: bounce 1s infinite;
+		animation: bounce 1s infinite;
+
 	}
 
 	.title {
@@ -568,15 +589,28 @@ footer {
 		height: auto;
 	}
 
-	.royce {
+	.about-content {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.column {
+		width: 90%;
+	}
+
+	.running {
 		display: none;
 	}
 
-	.top {
+	/*.royce {
+		display: none;
+	}*/
+
+/*	.top {
 		align-items: center;
 	}
 
 	.bottom {
 		align-items: center;
-	}
+	}*/
 }
