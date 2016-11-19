@@ -49,12 +49,6 @@ $(function() {
 
 	})
 
-	// $roycehead.click(function() {
-	// 	var that = $(this);
-	// 	that.css("animation", "pulse .3s linear 1");
-	// 	setTimeout(function() { that.css("animation", "none") }, 300);
-	// })
-
 	$maplocation.click(function() {
 		if ($(this).children(".map-bubble").css("display") === "block") {
 			$(this).children(".map-bubble").css("display", "none");

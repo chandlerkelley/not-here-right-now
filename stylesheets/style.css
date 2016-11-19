@@ -255,16 +255,9 @@ header {
 }
 
 footer {
-	height: 20vh;
 	display: flex;
 	align-items: flex-end;
 	justify-content: center;
-}
-
-.running {
-	height: 20vh;
-	position: absolute;
-	right: 2vh;
 }
 
 #heads {
@@ -416,39 +409,29 @@ footer {
 
 .footage-container {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
+	align-items: center;
 	margin: 5vh auto;
 }
 
-.footage-right {
-	order: 2;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
 .footage-top {
+	margin-top: 14vw;
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
 	justify-content: center
 }
 
 .video-container {
-	/*border: solid white 4px;*/
 	position: relative;
-	width: 70vh;
-	order: 1;
-	/*background-color: #000;*/
+	width: 37vw;
 }
 
 .video-wrapper {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
-	padding-top: 10vh;
+	padding-top: 5vw;
 	height: 0;
-	left: 10vh;
-	top: 10vh;
+	top: 5vw;
 }
 
 .video-wrapper iframe {
@@ -461,21 +444,15 @@ footer {
 
 .frame {
 	position: absolute;
-	top: 0vh;
-	left: 0;
-	width: 91vh;
-	/*z-index: 2;*/
-}
-
-.footage-right {
-	margin-left: 22vh;
-	display: flex;
-	flex-direction: column;
+	top: 0;
+	left: -5.5vw;
+	width: 48vw;
 }
 
 .refresh {
 	position: relative;
-	height: 11vh;
+	height: 7vw;
+	margin-bottom: 4vw;
 	transition: all .2s ease-in-out;
 	-webkit-animation:bounce 1s infinite;
 	animation: bounce 1s infinite;
@@ -486,8 +463,8 @@ footer {
 }
 
 .royce-wobble {
-	margin:  0 3vh 2vh;
-	width: 158px;
+	margin:  0 3vh 0 0;
+	width: 15vw;
 	-webkit-transform-origin: bottom center;
 	transform-origin: bottom center;
 	-webkit-animation: swing 3s infinite;
@@ -624,16 +601,8 @@ footer {
 		width: 90%;
 	}
 
-	.running {
-		display: none;
-	}
-
 	.footage-container {
 		flex-direction: column;
-	}
-
-	.footage-right {
-		order: 0;
 	}
 
 	.speech-bubble {
@@ -647,6 +616,29 @@ footer {
 
 	.royce-head:hover {
 		transform: none;
+	}
+
+	.video-container {
+		width: 70vw;
+	}
+
+	.frame {
+	left: -11vw;
+	width: 92vw;
+	}
+
+	.video-wrapper {
+		padding-top: 10vw;
+		height: 0;
+		top: 10vw;
+	}
+
+	.footage-top {
+		margin-top: 25vw;
+	}
+
+	.refresh {
+		height: 15vw;
 	}
 
 	/*.royce {
