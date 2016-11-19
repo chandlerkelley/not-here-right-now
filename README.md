@@ -1,0 +1,1 @@
+A homepage using HTML, CSS, JavaScipt, and jQuery. Animations adapted from the animate.css library.

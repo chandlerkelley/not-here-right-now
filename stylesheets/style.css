@@ -46,33 +46,17 @@
 .splash-container a {
 	height: 100%;
 	width: 100%;
-	/*background-color: red;*/
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 }
 
-/*.splash {
-    background: url('../images/logo-large.jpg') no-repeat fixed center;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-    height: 100%;
-    width: 100%;
-    -webkit-transform-origin: center center;
-	transform-origin: center center;
-	-webkit-animation: swing 3s infinite;
-	animation: swing 3s infinite;
-}*/
-
 .splash {
 	height: 90vh;
 	position: relative;
 	-webkit-animation: bounce 1s infinite;
 	animation: bounce 1s infinite;
-	/*margin: 10vh auto 0;*/
 }
 
 .link-container {
@@ -97,7 +81,6 @@
 	position: absolute;
 	z-index: -1;
 	opacity: 0;
-	/*display: none;*/
 	transition:  all .1s ease-in-out;
 }
 
@@ -148,10 +131,6 @@ a {
 	transform: scale(1.3);
 }
 
-.link {
-	/*margin: 80px 0;*/
-}
-
 .pic-container {
 	display: flex;
 	flex-direction: column;
@@ -163,12 +142,10 @@ a {
 .pic-container p {
 	color: #fff;
 	text-align: center;
-	/*margin: 1vh 0;*/
 }
 
 .title {
 	height: 18vh;
-	/*display: none;*/
 	margin-top: 2vh;
 }
 
@@ -190,15 +167,12 @@ a {
 
 .icon-container {
 	display: flex;
-	/*position: relative;*/
 }
 
 .icon {
 	width: 35px;
 	height: 35px;
-	/*border-radius: 50%;*/
 	margin: 10px;
-	/*background-color: blue;*/
 }
 
 .page-title {
@@ -213,7 +187,6 @@ a {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
-	/*width: 100%;*/
 }
 
 header {
@@ -239,12 +212,10 @@ header {
 }
 
 .column {
-	/*flex-grow: 1;*/
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	width: 40%;
-	/*padding: 0 5%;*/
 }
 
 .column p {
@@ -252,7 +223,6 @@ header {
 	color: #fff;
 	font-size: 18px;
 	line-height: 1.15em;
-	/*font-weight: 400;*/
 }
 
 footer {
@@ -286,16 +256,11 @@ footer {
 
 .map {
 	width: 85%;
-	/*height: auto;*/
-	/*max-width: 100%;*/
-	/*background: url("../images/se-asia-two.png") no-repeat fixed center;*/
-	/*background: url('../images/logo-large.jpg') no-repeat fixed center;*/
 	margin: 0 auto;
 	position: relative;
 }
 
 .map-bg {
-	/*position: absolute;*/
 	width: 100%;
 }
 
@@ -304,8 +269,6 @@ footer {
 	display: flex;
 	cursor: pointer;
 	align-items: flex-start;
-	/*justify-content: center;*/
-	/*background-color: #222*/
 }
 
 .map-location:nth-child(2) {
@@ -360,7 +323,6 @@ footer {
 }
 
 .speech-bubble {
-	/*display: none;*/
 	position: relative;
 	padding: .5em;
 	color:#000;
@@ -664,16 +626,4 @@ footer {
 	.page-title {
 		width: 75vw;
 	}
-
-	/*.royce {
-		display: none;
-	}*/
-
-/*	.top {
-		align-items: center;
-	}
-
-	.bottom {
-		align-items: center;
-	}*/
 }

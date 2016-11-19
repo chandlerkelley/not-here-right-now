@@ -23,7 +23,6 @@ $(function() {
 	$places.hover(function() {
 		$body.css("background-color", "#4ccede");
 		$royce.css("left", "-153vh");
-		// $(this).children(".link-bg").css("display", "inline-block");
 	})
 
 	$footage.hover(function() {
@@ -32,7 +31,6 @@ $(function() {
 	})
 
 	$journal.hover(function() {
-		// $body.css("background-color", "#F878A8");
 		$body.css("background-color", "#4ccede");
 		$royce.css("left", "-51vh");
 	})
