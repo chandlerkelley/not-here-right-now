@@ -86,7 +86,7 @@ $(function() {
 				]
 
 	var vidIndex = Math.floor(Math.random() * 24);
-	$(".video-wrapper").append('<iframe width="560" height="315" src="https://www.youtube.com/embed/' + videos[vidIndex].embed + '?controls=0&autoplay=1" frameborder="0" allowfullscreen></iframe>');
+	$(".footage-wrapper").append('<iframe width="560" height="315" src="https://www.youtube.com/embed/' + videos[vidIndex].embed + '?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1" frameborder="0" allowfullscreen></iframe>');
 	console.log(vidIndex);
 	$(".video-copy").append('<p>' + videos[vidIndex].copy + '</p>')
 })
