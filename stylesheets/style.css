@@ -247,7 +247,7 @@ header {
 }
 
 .column p {
-	margin: .5em 0;
+	margin: .5em auto .5em 0;
 	color: #fff;
 	font-size: 18px;
 	line-height: 1.15em;
@@ -315,13 +315,13 @@ footer {
 }
 
 .map-location:nth-child(2) {
-	top: 8%;
-	left: 20%;
+	top: 20%;
+	left: 45%;
 }
 
 .map-location:nth-child(3) {
-	top: 62vh;
-	left: 47vh;
+	top: 82%;
+	left: 52%;
 }
 
 .map-location:nth-child(4) {
@@ -345,11 +345,8 @@ footer {
 }
 
 .royce-head {
-	position: absolute;
-	width: 15%;
-	top: 10%;
-	left: 20%;
-	/*width: 12vh;*/
+	height: 12vw;
+	width: auto;
 }
 
 .speech-bubble {
