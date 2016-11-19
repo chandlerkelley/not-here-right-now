@@ -543,14 +543,14 @@ footer {
 	.mobile-royce-head {
 		position: relative;
 		display: inline-block;
-		width: 40%;
+		width: 50%;
 		-webkit-animation: bounce 1s infinite;
 		animation: bounce 1s infinite;
 
 	}
 
 	.title {
-		width: 90%;
+		width: 80%;
 		height: auto;
 	}
 
