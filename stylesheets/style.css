@@ -48,6 +48,7 @@
 	width: 100%;
 	/*background-color: red;*/
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 }
@@ -201,7 +202,7 @@ a {
 }
 
 .page-title {
-	height: 20vh;
+	width: 27vw;
 }
 
 .about-body {
@@ -451,8 +452,8 @@ footer {
 
 .refresh {
 	position: relative;
-	height: 7vw;
-	margin-bottom: 4vw;
+	height: 15vw;
+	margin-bottom: 3vw;
 	transition: all .2s ease-in-out;
 	-webkit-animation:bounce 1s infinite;
 	animation: bounce 1s infinite;
@@ -474,6 +475,13 @@ footer {
 .coming-soon {
 	width: 100vh;
 	margin: 20vh auto 0;
+}
+
+.places-para {
+	max-width: 80%;
+	margin: 2vw auto 0;
+	color: #fff;
+	line-height: 1.1em;
 }
 
 @-webkit-keyframes pulse {
@@ -638,7 +646,11 @@ footer {
 	}
 
 	.refresh {
-		height: 15vw;
+		height: 28vw;
+	}
+
+	.page-title {
+		width: 75vw;
 	}
 
 	/*.royce {
