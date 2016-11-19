@@ -370,7 +370,7 @@ footer {
 	-webkit-border-radius:10px;
 	-moz-border-radius:10px;
 	border-radius:10px;
-	width: 30vh;
+	max-width: 20vw;
 	min-height: 52px;
 	z-index: 2;
 	margin-top: 3vw;
@@ -473,8 +473,8 @@ footer {
 }
 
 .coming-soon {
-	width: 100vh;
-	margin: 20vh auto 0;
+	width: 60vw;
+	margin: 10vw auto 0;
 }
 
 .places-para {
@@ -615,6 +615,18 @@ footer {
 
 	.speech-bubble {
 		margin-top: 0;
+	}
+
+	.speech-bubble:before {
+		top: 8px;
+	}
+
+	.speech-bubble:after {
+		top: 8px;
+	}
+
+	.map-bubble {
+		font-size: 8px;
 	}
 
 	.royce-head {
