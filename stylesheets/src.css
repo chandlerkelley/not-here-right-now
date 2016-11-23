@@ -367,8 +367,14 @@ footer {
 	margin: 5vh auto;
 }
 
+.footage-row {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 10vw;
+}
+
 .footage-top {
-	margin-top: 14vw;
+	margin: 10vw 0 0 7vw;
 	display: flex;
 	align-items: flex-start;
 	justify-content: center
@@ -615,5 +621,14 @@ footer {
 
 	.page-title {
 		width: 75vw;
+	}
+
+	.footage-row {
+		flex-direction: column;
+		margin-bottom: 0;
+	}
+
+	.royce-wobble {
+		width: 30vw;
 	}
 }
