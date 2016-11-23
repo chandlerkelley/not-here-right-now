@@ -1,13 +1,3 @@
-@font-face {
-  font-family: 'Glober';
-  src: url('../glober-semibold/glober-semibold.eot');
-  src: url('../glober-semibold/glober-semibold.eot?#iefix') format('embedded-opentype'),
-       url('../glober-semibold/glober-semibold.woff2') format('woff2'), 
-       url('../glober-semibold/glober-semibold.woff') format('woff'),
-       url('../glober-semibold/glober-semibold.ttf')  format('truetype'),
-       url('../glober-semibold/glober-semibold.svg#svgFontName') format('svg');
-}
-
 * {
 	font-family: "Didact Gothic", serif;
 }

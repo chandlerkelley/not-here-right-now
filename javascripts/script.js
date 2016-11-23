@@ -1,4 +1,5 @@
 $(function() {
+
 	var $body = $("body");
 	var $center = $(".pic-container")
 	var $royce = $(".royce");
