@@ -543,6 +543,19 @@ footer {
 	line-height: 1.1em;
 }
 
+.popup {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+	background-color: rgba(255,255,255,.7);
+	z-index: 5;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 @-webkit-keyframes pulse {
   from {
     -webkit-transform: scale3d(1, 1, 1);

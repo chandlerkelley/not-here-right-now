@@ -12,6 +12,10 @@ $(function() {
 	var $roycehead = $(".royce-head");
 	var $maplocation = $(".map-location");
 
+	$('.popup').click(function() {
+		$(this).css("display", "none");
+	})
+
 	$center.hover(function() {
 		$royce.css("left", "0");
 	})
